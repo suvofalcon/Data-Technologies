@@ -20,3 +20,4 @@ wordcount = FOREACH grouped GENERATE group, COUNT(words);
 -- This will execute the script and dump the output on the screen
 --dump wordcount;
 STORE wordcount INTO '/datasets/wcoutput';
+dump wordcount;
